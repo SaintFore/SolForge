@@ -3,15 +3,8 @@
 const VERSION = '0.1.0';
 
 function main() {
-  const args = process.argv.slice(2);
-  
-  if (args.includes('--version') || args.includes('-v')) {
-    console.log(`SolForge v${VERSION}`);
-    return;
-  }
-  
-  console.log('SolForge静态网站生成器');
-  console.log('使用 --help 查看可用命令');
+  // 直接将控制权交给CLI模块
+  require('./cli');
 }
 
 if (require.main === module) {

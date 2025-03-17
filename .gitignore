@@ -1,5 +1,6 @@
 # 依赖目录
 node_modules/
+dist/
 
 # 工程需要
 AI.md
