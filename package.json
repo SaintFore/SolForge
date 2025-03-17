@@ -1,0 +1,22 @@
+{
+  "name": "solforge",
+  "version": "0.1.0",
+  "description": "SolForge静态网站生成器",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "solforge": "dist/index.js"
+  },
+  "keywords": [
+    "static-site-generator",
+    "blog",
+    "markdown"
+  ],
+  "author": "",
+  "license": "MIT"
+}
