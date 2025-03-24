@@ -22,9 +22,11 @@
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^13.1.0",
-    "inquirer": "^8.2.5"
+    "inquirer": "^8.2.5",
+    "js-yaml": "^4.1.0"
   },
   "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.13.10",
     "nodemon": "^3.1.9",
     "ts-node": "^10.9.2",
